@@ -1,0 +1,46 @@
+.cell {
+  background-color: #fafafa;
+  max-width: 250px;
+  width: 100%;
+  min-height: calc(250px * 0.58);
+  position: relative;
+  z-index: -3;
+  display: flex;
+}
+
+.cell__title {
+  margin: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 20px;
+}
+
+.cell__background {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  opacity: 0.9;
+}
+
+.cell__boat {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.cell__type {
+  width: 27px;
+  height: 27px;
+}
+
+.cell__lvl {
+  margin: 5px 0 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
