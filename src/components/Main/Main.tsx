@@ -51,7 +51,7 @@ const Main = () => {
   };
 
   const clickHandler = (index: number) => {
-    setCurrentShip(vehicles.vehicles[index]);
+    setCurrentShip(currentShips[index]);
   };
 
   const cancelFilter = () => {
