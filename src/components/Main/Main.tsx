@@ -54,6 +54,12 @@ const Main = () => {
     setCurrentShip(vehicles.vehicles[index]);
   };
 
+  const cancelFilter = () => {
+    setCurrentLevel(0);
+    setCurrentNation("");
+    setCurrentSpec("");
+  };
+
   return (
     <main>
       <section className="main">
@@ -113,6 +119,9 @@ const Main = () => {
               );
             })}
           </div>
+          <button className="main__filter-cancel" onClick={cancelFilter}>
+            Сброс всех фильтров
+          </button>
         </div>
         <div className="main__container">
           {currentShips.length ? (
