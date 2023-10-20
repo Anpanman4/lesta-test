@@ -8,5 +8,6 @@ export const levelNumbers = new Map<number, string>([
   [7, "VII"],
   [8, "VIII"],
   [9, "IX"],
-  [10, "XX"],
+  [10, "X"],
+  [11, "XI"],
 ]);

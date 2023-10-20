@@ -1,11 +1,13 @@
 .cell {
-  background-color: #fafafa;
   max-width: 250px;
   width: 100%;
   min-height: calc(250px * 0.58);
   position: relative;
-  z-index: -3;
   display: flex;
+}
+
+.cell:hover {
+  cursor: pointer;
 }
 
 .cell__title {
@@ -21,6 +23,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  background-color: #fafafa;
   z-index: -2;
   opacity: 0.9;
 }
